@@ -1,11 +1,11 @@
 # Site settings
-author: ANTON ZAHARIA
-title: 
+author: Anton Zaharia
+title: Finally following my dream...
 header-img: img/home-bg.png
 email: zaharia_anton@yahoo.com
-copyright_name: ANTON ZAHARIA
+copyright_name: Anton Zaharia
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A coding life
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  antonzaharia
