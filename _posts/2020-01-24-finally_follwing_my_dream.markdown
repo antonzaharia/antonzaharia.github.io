@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Finally follwing my dream..."
-date:       2020-01-24 22:31:49 +0000
+date:       2020-01-24 17:31:49 -0500
 permalink:  finally_follwing_my_dream
 ---
 
