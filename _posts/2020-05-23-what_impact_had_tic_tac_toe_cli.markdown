@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What impact had Tic Tac Toe CLI."
-date:       2020-05-23 16:40:28 +0000
+date:       2020-05-23 12:40:29 -0400
 permalink:  what_impact_had_tic_tac_toe_cli
 ---
 
