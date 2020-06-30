@@ -18,7 +18,7 @@ It scared me at the begining, realizing that it will need a lot of work.
 
 The models I started with was `User` and `Address`. It was easy and it didn't create any problems as I really love the signup idea and always that was my favourite part.
 
-The place I spent more time was on implementing the new form for the `Addresses` as it was a nested resource of the `Users`, I completely forgot that the `form_for` it requires 2 instances. `(@user, @address)` 
+The place I spent more time was on implementing the new form for the `Addresses` as it was a nested resource of the `Users`, I completely forgot that the `form_for` requires 2 instances. `(@user, @address)` 
 
 ### Adding `Items`, `Categories`, `Models` and `Colors`
 This was the moment when I understood the reason why a DRY code is very important. It can be hard even for myself to find the line of code I need when the code is "WET".
@@ -26,14 +26,14 @@ This was the moment when I understood the reason why a DRY code is very importan
 
 First Refactor.
 
-### Adding `Carts` and `CartsItems`
+### Adding `Carts` and `CartItems`
 This was the moment of `has_many through:` relation.
 A `Cart` has many items through `cart_items`.
 While I was building up the form for the new cart I realised that an `Item` should HAVE MANY colors and models.
 
 Second Refactor
 
-I had to drop my items, models, and colors tables down and modify them as they should be
+I had to drop my items, models, and colors tables down and modify them as they should be.
 
 ### Implementing the GitHub signup.
 
@@ -58,7 +58,7 @@ def self.create_with_omniauth(auth)
         end
    end
 ```
-This method helped me a lot. If the GitHub email was not found in `auth['info']` hash it is saving it as "Add your email here", so the user can add it anytime accessing `edit_user_address_path`.
+This method helped me a lot. If the GitHub email was not found in `auth['info']` hash it is saving it as "Add your email here", so the user can add it anytime accessing `edit_user_address_path` from the user show page.
 
 ### Adding Bootstrap
 This was a fun part where I was only adding classes in my views. It was fun but also I was feeling like that my views became much harder to read.
