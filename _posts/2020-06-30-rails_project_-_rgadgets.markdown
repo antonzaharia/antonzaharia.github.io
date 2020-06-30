@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Project - RGadgets"
-date:       2020-06-30 19:25:35 +0000
+date:       2020-06-30 15:25:36 -0400
 permalink:  rails_project_-_rgadgets
 ---
 
@@ -10,7 +10,7 @@ permalink:  rails_project_-_rgadgets
 
 I've started on draw.io creating the database and writing down in a notepad all the associations needed. This is what I end up with:
 
-![](https://prnt.sc/t9bzmq)
+(https://prnt.sc/t9bzmq)
 
 It scared me at the begining, realizing that it will need a lot of work. 
 
