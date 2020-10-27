@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Final Project - React, Redux and Rails"
-date:       2020-10-27 19:09:29 +0000
+date:       2020-10-27 15:09:30 -0400
 permalink:  final_project_-_react_redux_and_rails
 ---
 
