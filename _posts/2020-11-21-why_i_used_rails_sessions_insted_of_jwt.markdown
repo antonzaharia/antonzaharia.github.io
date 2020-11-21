@@ -11,7 +11,7 @@ After doing my research about JWT tokens, I decided to enable Rails sessions and
 > If an attacker manages to inject a malicious script into your front end (which is vulnerable to XSS), then they can use that script to make HTTP requests to your server (directly from the user’s browser) and your precious httpOnly cookie (containing the user’s valid session ID) will be attached to every request so the server will service them without suspecting anything.
 
 How I enabled sessions if my app was using an api Rails app you can find out here:
-https://antonzaharia.github.io/rails_session_does_not_persist
+[Rails sessions does not persist?](https://antonzaharia.github.io/rails_session_does_not_persist)
 
 Creating an app that will not be used a large number of users at the same time will not have any problem handling the cookies on the server-side.
 
